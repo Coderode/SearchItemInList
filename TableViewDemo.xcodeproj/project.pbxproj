@@ -15,8 +15,6 @@
 		2C8EF0C12A698E4B00200C12 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EF0C02A698E4B00200C12 /* HomeVC.swift */; };
 		2C8EF0CD2A69904600200C12 /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EF0CC2A69904600200C12 /* ImageItem.swift */; };
 		2C8EF0D12A6992AC00200C12 /* SearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EF0D02A6992AC00200C12 /* SearchHeaderView.swift */; };
-		2C8EF0D32A69954F00200C12 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EF0D22A69954F00200C12 /* CarouselCollectionViewCell.swift */; };
-		2C8EF0D52A69956900200C12 /* ImageItemListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EF0D42A69956900200C12 /* ImageItemListCollectionViewCell.swift */; };
 		2C8EF0D72A69994900200C12 /* HomeVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EF0D62A69994900200C12 /* HomeVC+Extension.swift */; };
 		2C8EF0DA2A699CC000200C12 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EF0D92A699CC000200C12 /* UIView+Extension.swift */; };
 		2C8EF0DC2A699D8000200C12 /* HomeViewLayouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EF0DB2A699D8000200C12 /* HomeViewLayouts.swift */; };
@@ -25,6 +23,11 @@
 		2C8EF0E22A69A6F700200C12 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EF0E12A69A6F700200C12 /* Observable.swift */; };
 		2C8EF0E42A69A9E700200C12 /* DispatchQueue+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EF0E32A69A9E700200C12 /* DispatchQueue+Extension.swift */; };
 		2C8EF0E62A6A4C1B00200C12 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EF0E52A6A4C1B00200C12 /* PagerView.swift */; };
+		7CB5A0E52A9E340A00B979CE /* ImageItemCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB5A0E32A9E340A00B979CE /* ImageItemCVC.swift */; };
+		7CB5A0E62A9E340A00B979CE /* ImageItemCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CB5A0E42A9E340A00B979CE /* ImageItemCVC.xib */; };
+		7CB5A0E92A9E341D00B979CE /* CarouselCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB5A0E72A9E341D00B979CE /* CarouselCVC.swift */; };
+		7CB5A0EA2A9E341D00B979CE /* CarouselCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CB5A0E82A9E341D00B979CE /* CarouselCVC.xib */; };
+		7CB5A0EC2A9E35B500B979CE /* UICollectionView+RegisterNIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB5A0EB2A9E35B500B979CE /* UICollectionView+RegisterNIB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +41,6 @@
 		2C8EF0C02A698E4B00200C12 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		2C8EF0CC2A69904600200C12 /* ImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
 		2C8EF0D02A6992AC00200C12 /* SearchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderView.swift; sourceTree = "<group>"; };
-		2C8EF0D22A69954F00200C12 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
-		2C8EF0D42A69956900200C12 /* ImageItemListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItemListCollectionViewCell.swift; sourceTree = "<group>"; };
 		2C8EF0D62A69994900200C12 /* HomeVC+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+Extension.swift"; sourceTree = "<group>"; };
 		2C8EF0D92A699CC000200C12 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		2C8EF0DB2A699D8000200C12 /* HomeViewLayouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewLayouts.swift; sourceTree = "<group>"; };
@@ -48,6 +49,11 @@
 		2C8EF0E12A69A6F700200C12 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		2C8EF0E32A69A9E700200C12 /* DispatchQueue+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extension.swift"; sourceTree = "<group>"; };
 		2C8EF0E52A6A4C1B00200C12 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		7CB5A0E32A9E340A00B979CE /* ImageItemCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItemCVC.swift; sourceTree = "<group>"; };
+		7CB5A0E42A9E340A00B979CE /* ImageItemCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageItemCVC.xib; sourceTree = "<group>"; };
+		7CB5A0E72A9E341D00B979CE /* CarouselCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCVC.swift; sourceTree = "<group>"; };
+		7CB5A0E82A9E341D00B979CE /* CarouselCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselCVC.xib; sourceTree = "<group>"; };
+		7CB5A0EB2A9E35B500B979CE /* UICollectionView+RegisterNIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterNIB.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +164,8 @@
 		2C8EF0CF2A69929800200C12 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
-				2C8EF0D22A69954F00200C12 /* CarouselCollectionViewCell.swift */,
-				2C8EF0D42A69956900200C12 /* ImageItemListCollectionViewCell.swift */,
+				7CB5A0E22A9E33E200B979CE /* ImageCVC */,
+				7CB5A0E12A9E33D500B979CE /* CarouselCVC */,
 			);
 			path = CustomCells;
 			sourceTree = "<group>";
@@ -171,8 +177,27 @@
 				2C8EF0DD2A69A15C00200C12 /* Image+Extension.swift */,
 				2C8EF0E12A69A6F700200C12 /* Observable.swift */,
 				2C8EF0E32A69A9E700200C12 /* DispatchQueue+Extension.swift */,
+				7CB5A0EB2A9E35B500B979CE /* UICollectionView+RegisterNIB.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		7CB5A0E12A9E33D500B979CE /* CarouselCVC */ = {
+			isa = PBXGroup;
+			children = (
+				7CB5A0E72A9E341D00B979CE /* CarouselCVC.swift */,
+				7CB5A0E82A9E341D00B979CE /* CarouselCVC.xib */,
+			);
+			path = CarouselCVC;
+			sourceTree = "<group>";
+		};
+		7CB5A0E22A9E33E200B979CE /* ImageCVC */ = {
+			isa = PBXGroup;
+			children = (
+				7CB5A0E32A9E340A00B979CE /* ImageItemCVC.swift */,
+				7CB5A0E42A9E340A00B979CE /* ImageItemCVC.xib */,
+			);
+			path = ImageCVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +259,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8EF0B62A698DDC00200C12 /* LaunchScreen.storyboard in Resources */,
+				7CB5A0EA2A9E341D00B979CE /* CarouselCVC.xib in Resources */,
 				2C8EF0B32A698DDC00200C12 /* Assets.xcassets in Resources */,
 				2C8EF0B12A698DDA00200C12 /* Main.storyboard in Resources */,
+				7CB5A0E62A9E340A00B979CE /* ImageItemCVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,16 +275,17 @@
 			files = (
 				2C8EF0E22A69A6F700200C12 /* Observable.swift in Sources */,
 				2C8EF0DE2A69A15C00200C12 /* Image+Extension.swift in Sources */,
-				2C8EF0D32A69954F00200C12 /* CarouselCollectionViewCell.swift in Sources */,
+				7CB5A0EC2A9E35B500B979CE /* UICollectionView+RegisterNIB.swift in Sources */,
 				2C8EF0CD2A69904600200C12 /* ImageItem.swift in Sources */,
 				2C8EF0E02A69A64300200C12 /* HomeVM.swift in Sources */,
 				2C8EF0D72A69994900200C12 /* HomeVC+Extension.swift in Sources */,
 				2C8EF0DC2A699D8000200C12 /* HomeViewLayouts.swift in Sources */,
 				2C8EF0C12A698E4B00200C12 /* HomeVC.swift in Sources */,
-				2C8EF0D52A69956900200C12 /* ImageItemListCollectionViewCell.swift in Sources */,
 				2C8EF0AA2A698DD900200C12 /* AppDelegate.swift in Sources */,
 				2C8EF0AC2A698DD900200C12 /* SceneDelegate.swift in Sources */,
+				7CB5A0E52A9E340A00B979CE /* ImageItemCVC.swift in Sources */,
 				2C8EF0DA2A699CC000200C12 /* UIView+Extension.swift in Sources */,
+				7CB5A0E92A9E341D00B979CE /* CarouselCVC.swift in Sources */,
 				2C8EF0D12A6992AC00200C12 /* SearchHeaderView.swift in Sources */,
 				2C8EF0E62A6A4C1B00200C12 /* PagerView.swift in Sources */,
 				2C8EF0E42A69A9E700200C12 /* DispatchQueue+Extension.swift in Sources */,
@@ -407,7 +435,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UUTQRL82M5;
+				DEVELOPMENT_TEAM = R4J8RR3RG5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableViewDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -435,7 +463,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UUTQRL82M5;
+				DEVELOPMENT_TEAM = R4J8RR3RG5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableViewDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

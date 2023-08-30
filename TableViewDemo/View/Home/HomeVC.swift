@@ -49,9 +49,8 @@ class HomeVC: UIViewController {
         cv.showsVerticalScrollIndicator = false
         cv.delegate = self
         cv.dataSource = self
-        cv.register(CarouselCollectionViewCell.self, forCellWithReuseIdentifier: CarouselCollectionViewCell.cellIdentifier)
-        cv.register(ImageItemListCollectionViewCell.self, forCellWithReuseIdentifier: ImageItemListCollectionViewCell.cellIdentifier)
-        
+        cv.registerCellNib(ImageItemCVC.self)
+        cv.registerCellNib(CarouselCVC.self)
         cv.register(SearchHeaderVeiw.self, forSupplementaryViewOfKind: "Header", withReuseIdentifier: SearchHeaderVeiw.headerIdentifier)
         cv.register(PagerView.self, forSupplementaryViewOfKind: "Footer", withReuseIdentifier: PagerView.headerIdentifier)
 

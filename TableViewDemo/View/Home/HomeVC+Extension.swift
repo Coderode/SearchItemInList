@@ -28,13 +28,13 @@ extension HomeVC : UICollectionViewDelegate, UICollectionViewDataSource {
         switch indexPath.section {
             
         case 0 :
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CarouselCollectionViewCell.cellIdentifier, for: indexPath) as? CarouselCollectionViewCell else {fatalError("Unable deque cell...")}
-            cell.cellData = self.viewModel.featureImageList.value[indexPath.row]
+            guard let cell = collectionView.dequeReusableCell(CarouselCVC.self, indexPath: indexPath) as? CarouselCVC else {fatalError("Unable deque cell...")}
+            cell.setData(data: self.viewModel.featureImageList.value[indexPath.row])
             return cell
             
         case 2 :
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ImageItemListCollectionViewCell.cellIdentifier, for: indexPath) as? ImageItemListCollectionViewCell else {fatalError("Unable deque cell...")}
-            cell.cellData = self.viewModel.imageListData.value[indexPath.row]
+            guard let cell = collectionView.dequeReusableCell(ImageItemCVC.self, indexPath: indexPath) as? ImageItemCVC else {fatalError("Unable deque cell...")}
+            cell.setDate(data: self.viewModel.imageListData.value[indexPath.row])
             return cell
             
         default:
